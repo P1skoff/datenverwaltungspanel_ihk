@@ -1,4 +1,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: red;
+    background-color: #dcc48e;
+}
+
+nav {
+    background-color: #4D5057;
 }
