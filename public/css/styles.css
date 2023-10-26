@@ -1,8 +1,24 @@
+@font-face {
+    font-family: 'Cera';
+    src: url('fonts/Cera-Regular.woff2') format('woff2'),
+         url('fonts/Cera-Bold.woff') format('woff');
+    /* Add additional font formats for better browser compatibility */
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Cera';
+    src: url('fonts/Cera-Bold.woff2') format('woff2'),
+         url('fonts/Cera-Bold.woff') format('woff');
+    font-weight: bold;
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Cera', sans-serif;
     background-color: #dcc48e;
 }
 
 nav {
     background-color: #4D5057;
 }
+
